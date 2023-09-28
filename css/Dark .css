@@ -1,0 +1,61 @@
+
+  .navbar {
+    box-shadow: none;
+    background: #000000;
+    color: #ffff;
+  }
+
+  .navbar a {
+    color: #ffffff;
+  }
+
+  .logo img {
+    filter: drop-shadow(0.7px 0.10px rgb(255, 255, 255));
+  }
+
+  .navbar-container .hamburger-lines .line {
+    background: #e7e7e7;
+  }
+
+  .navbar .menu-items {
+    background: #000000;
+  }
+
+  .home {
+    background-color: #000000;
+  }
+
+  .service {
+    background: radial-gradient(circle at 51% 46%, #3a525e, #191919);
+    background: linear-gradient(0deg, #3a525e 0, #000000 100%);
+    color: #ffffff;
+  }
+
+  .Box {
+    background-color: #e4e4e4;
+  }
+
+  .Hiring {
+    background: #39515D;
+    background: linear-gradient(to bottom, #39515D 5%, #000000 100%);
+  }
+
+  .projects {
+    background: linear-gradient(0deg, #3a525e 0, #000000 100%);
+  }
+
+  .footer {
+    background: #39515D;
+    background: linear-gradient(to bottom, #39515D 23%, #000000 100%);
+  }
+
+  .footer .row {
+    color: rgb(255, 255, 255);
+  }
+
+  .footer .row a {
+    color: rgb(255, 255, 255);
+  }
+  .social-icon__link {
+    color: #ffff;
+  }
