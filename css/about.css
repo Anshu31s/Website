@@ -283,8 +283,8 @@ Styling for the about section
 }
 
 swiper-container {
-  width: 500px;
-  height: 320px;
+  width: 420px;
+  height: 280px;
   margin: 20px;
 }
 
@@ -338,4 +338,24 @@ swiper-slide:nth-child(9n) {
 
 swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
+}
+
+@media (max-width: 768px) {
+  swiper-container {
+    width: 290px;
+    height: 180px;
+    margin: 10px;
+  }
+  .certificate {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  swiper-container {
+    width: 250px;
+    height: 180px;
+  }
+
 }
